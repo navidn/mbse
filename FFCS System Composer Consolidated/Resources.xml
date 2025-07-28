@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/systemcomposer_property/2.12 http://schema.mathworks.com/mf0/systemcomposer_services_proxy/1.2">
+  <systemcomposer.profile.Profile type="systemcomposer.profile.Profile" uuid="dbe53ffe-fa16-4a13-a117-2b682afb24a7">
+    <prototypes type="systemcomposer.profile.Prototype" uuid="90e8204e-8e39-46e9-a999-4e7a0feab3b8">
+      <p_Name>Material</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="e998d515-0f99-401e-8fee-2eac66df20bb"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="7c73bfab-4978-4bff-a44b-17f61f3914f7">
+        <p_Name>Material</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="0015de1b-28dd-4d45-b33d-ac6771e07f6d"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="57396221-59b5-4583-8aec-390e0a9f5c00"/>
+    </prototypes>
+    <prototypes type="systemcomposer.profile.Prototype" uuid="c3c1586a-21f2-464b-9460-c436e52ab565">
+      <p_Name>Power</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="9278a996-e25a-4ebf-a56f-588a9e0f92ba"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="f81a58ba-fbfe-4e55-b2a7-f68011f061dc">
+        <p_Name>Power</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="825009ae-1465-4529-8f96-6e0bc2df8b68"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="4b5921a1-2b40-40f1-9957-7b4ccd55ae49"/>
+    </prototypes>
+    <valueTypes type="systemcomposer.property.BooleanType" uuid="772a5e03-87c8-42ab-b6c7-2c69eddbb012">
+      <p_Name>boolean</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="71e25a12-1002-4e03-96fc-f38cb06916a6">
+      <max>1.7976931348623157e+308</max>
+      <min>-1.7976931348623157e+308</min>
+      <p_Name>double</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="c8d6a80a-26d8-44c3-9c52-17221efe968f">
+      <max>32767</max>
+      <min>-32768</min>
+      <p_Name>int16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="bafdf659-98d8-4398-840f-9f2c53ed350b">
+      <max>2147483647</max>
+      <min>-2147483648</min>
+      <p_Name>int32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="269bbd79-8f76-403a-8dce-f49cc34c9806">
+      <max>9223372036854775807</max>
+      <min>-9223372036854775808</min>
+      <p_Name>int64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="179b133b-b6ea-4d3e-8175-992f11e1ba58">
+      <max>127</max>
+      <min>-128</min>
+      <p_Name>int8</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="0ffb7685-30da-473c-8059-33fe0baecd1d">
+      <max>3.4028234663852886e+38</max>
+      <min>-3.4028234663852886e+38</min>
+      <p_Name>single</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringType" uuid="6786efe9-9a9e-4831-b751-a353d6164bf3">
+      <p_Name>string</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringArrayType" uuid="74abe4ee-91ce-469d-910d-3804f462855c">
+      <p_Name>stringArray</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="70d881a7-c582-4751-a2f1-32726e4d8b36">
+      <max>65535</max>
+      <min>0</min>
+      <p_Name>uint16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="f5077b47-c161-47d0-80aa-cab915e04c39">
+      <max>4294967295</max>
+      <min>0</min>
+      <p_Name>uint32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="d634e56d-ebce-4dc0-aa78-2286a50302ae">
+      <max>9223372036854775807</max>
+      <min>0</min>
+      <p_Name>uint64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="61fce810-38f6-4b9b-9b3e-3b6464d83e45">
+      <max>255</max>
+      <min>0</min>
+      <p_Name>uint8</p_Name>
+    </valueTypes>
+    <p_Name>Resources</p_Name>
+    <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="47d1ad03-f5a5-48a6-bd01-2f2056cb0cd6"/>
+  </systemcomposer.profile.Profile>
+  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="183c24da-dc23-4465-833c-bfdbe44e4b13">
+    <URI>Resources</URI>
+    <modelType>PROFILE_MODEL</modelType>
+  </systemcomposer.services.proxy.ModelIdentifier>
+  <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="1ee47349-584f-429f-b37c-44f68b376f4d"/>
+</MF0>
