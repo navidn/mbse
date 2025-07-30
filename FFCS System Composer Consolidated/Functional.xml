@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/meta/19700101 http://schema.mathworks.com/mf0/systemcomposer_property/2.13 http://schema.mathworks.com/mf0/systemcomposer_services_proxy/1.2">
-  <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="690d3d63-8042-488f-a136-4014714ea299"/>
-  <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="617b8079-6246-41d0-b42f-9db052bda78a">
-    <Proxies type="systemcomposer.services.proxy.BidirectionalProxy" uuid="9065a139-390f-435d-ab3f-7a628a15c802">
-      <Source type="systemcomposer.services.proxy.ProxySource" uuid="e28246d1-50c1-4434-b8d9-ba9c47980dd0"/>
-      <Source type="systemcomposer.services.proxy.ProxySource" uuid="689fe29e-c158-4796-b22e-cfc1de29a672"/>
-      <TargetId>17cbf456-b33c-455d-b328-27d8c9fdc239</TargetId>
-    </Proxies>
-    <modelType>PROFILE_MODEL</modelType>
-    <URI>Functional</URI>
-  </systemcomposer.services.proxy.ModelResolver>
-  <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="4d8426dd-4fd5-44d8-9eda-fd21220e0b3a"/>
-  <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="85cf38ce-d7b1-4703-8910-cb07187cd490">
-    <Proxies type="systemcomposer.services.proxy.UnidirectionalProxy" uuid="bf2764ff-a76a-48dd-9543-fafb460fa31c">
-      <Source type="systemcomposer.services.proxy.ProxySource" uuid="c835de58-13d1-43c3-af33-5bd8df3f95b1"/>
-      <TargetId>0c5ac046-ab3a-4fca-8934-3b83a5fd87d8</TargetId>
-    </Proxies>
-    <Proxies type="systemcomposer.services.proxy.BidirectionalProxy" uuid="601a4aac-a3bc-45cb-a8e7-1ee23a706a13">
-      <Source type="systemcomposer.services.proxy.ProxySource" uuid="d43360cf-55cc-4f98-b3fa-bd3f2c5941a3"/>
-      <TargetId>77f937c4-4851-4708-beaa-771ce49671cf</TargetId>
-    </Proxies>
-    <Proxies type="systemcomposer.services.proxy.UnidirectionalProxy" uuid="c6d1aeab-c5e5-4ff7-990b-25f4161598bc">
-      <Source type="systemcomposer.services.proxy.ProxySource" uuid="8fffb14c-28ef-49c7-8e50-6b6d8d80fd70"/>
-      <TargetId>fd2bdcd6-8abd-4bbf-b838-1fe49d02aee3</TargetId>
-    </Proxies>
-  </systemcomposer.services.proxy.ModelResolver>
-  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="4a4b5889-3138-4caf-bdfc-a50becc9766a">
-    <URI>Functional</URI>
-    <modelType>PROFILE_MODEL</modelType>
-  </systemcomposer.services.proxy.ModelIdentifier>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/meta/19700101 http://schema.mathworks.com/mf0/systemcomposer_property/2.12 http://schema.mathworks.com/mf0/systemcomposer_services_proxy/1.2">
   <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="0e9f17fb-9c75-4bd0-a5bc-4a092b23815a"/>
   <systemcomposer.profile.Profile type="systemcomposer.profile.Profile" uuid="161b7eb9-0524-444a-a1d2-ec9bf968c57b">
     <defaultArchPrototype type="systemcomposer.profile.Prototype" uuid="7a4599b4-1075-4268-945a-c682330e0f4a"/>
@@ -175,4 +146,33 @@
     <p_Name>Functional</p_Name>
     <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="63d4fa60-afce-4e9d-8516-036a4c02b246"/>
   </systemcomposer.profile.Profile>
+  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="4a4b5889-3138-4caf-bdfc-a50becc9766a">
+    <URI>Functional</URI>
+    <modelType>PROFILE_MODEL</modelType>
+  </systemcomposer.services.proxy.ModelIdentifier>
+  <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="4d8426dd-4fd5-44d8-9eda-fd21220e0b3a"/>
+  <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="85cf38ce-d7b1-4703-8910-cb07187cd490">
+    <Proxies type="systemcomposer.services.proxy.UnidirectionalProxy" uuid="bf2764ff-a76a-48dd-9543-fafb460fa31c">
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="c835de58-13d1-43c3-af33-5bd8df3f95b1"/>
+      <TargetId>0c5ac046-ab3a-4fca-8934-3b83a5fd87d8</TargetId>
+    </Proxies>
+    <Proxies type="systemcomposer.services.proxy.BidirectionalProxy" uuid="601a4aac-a3bc-45cb-a8e7-1ee23a706a13">
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="d43360cf-55cc-4f98-b3fa-bd3f2c5941a3"/>
+      <TargetId>77f937c4-4851-4708-beaa-771ce49671cf</TargetId>
+    </Proxies>
+    <Proxies type="systemcomposer.services.proxy.UnidirectionalProxy" uuid="c6d1aeab-c5e5-4ff7-990b-25f4161598bc">
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="8fffb14c-28ef-49c7-8e50-6b6d8d80fd70"/>
+      <TargetId>fd2bdcd6-8abd-4bbf-b838-1fe49d02aee3</TargetId>
+    </Proxies>
+  </systemcomposer.services.proxy.ModelResolver>
+  <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="690d3d63-8042-488f-a136-4014714ea299"/>
+  <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="617b8079-6246-41d0-b42f-9db052bda78a">
+    <Proxies type="systemcomposer.services.proxy.BidirectionalProxy" uuid="9065a139-390f-435d-ab3f-7a628a15c802">
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="e28246d1-50c1-4434-b8d9-ba9c47980dd0"/>
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="689fe29e-c158-4796-b22e-cfc1de29a672"/>
+      <TargetId>17cbf456-b33c-455d-b328-27d8c9fdc239</TargetId>
+    </Proxies>
+    <modelType>PROFILE_MODEL</modelType>
+    <URI>Functional</URI>
+  </systemcomposer.services.proxy.ModelResolver>
 </MF0>
