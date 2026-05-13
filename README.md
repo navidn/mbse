@@ -2,6 +2,29 @@
 
 This repository contains an educational handbook focused on the application of Model-Based Systems Engineering (MBSE) using MATLAB and System Composer. Developed as a practical teaching and learning resource, this handbook supports instruction in systems modeling, architecture definition, and analysis for engineering education.
 
+## Getting Started
+
+The recommended starting point is:
+
+**QuickStart.mlx**
+
+This file serves as the entry point to the handbook. It provides navigation guidance, explains the workflow, and links to all modules and case studies.
+
+### Requirements
+
+* MATLAB (R2023b or newer recommended)
+* Simulink
+* System Composer
+* Simulink Test (used in later modules)
+
+### How to Use
+
+1. Clone or download this repository
+2. Open MATLAB
+3. Navigate to the repository folder
+4. Open QuickStart.mlx
+5. Follow the instructions and proceed through the modules
+
 ## Contents
 
 This handbook introduces key concepts, tools, and methodologies in Systems Engineering (SE) and Model-Based Systems Engineering (MBSE), with a strong emphasis on implementation using MATLAB and System Composer. It guides learners through the process of building, simulating, and validating system models using a structured, hands-on approach. By the end, readers will be prepared to model and analyze engineered systems using model-based methods.
@@ -73,6 +96,22 @@ This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 I
 To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/).
 
 You are free to copy, distribute, and adapt this material for non-commercial purposes, provided that proper attribution is given. Commercial use requires explicit permission from the authors.
+
+## Citation
+
+If you use this material in teaching or research, please cite:
+
+Fallah Fini, S., and Nakhjiri, N.
+MBSE Handbook Using MATLAB and System Composer,
+California State Polytechnic University, Pomona.
+
+(You may update this section with a DOI if you later register one.)
+
+## Versioning and Distribution
+
+This GitHub repository is the primary and authoritative source for the handbook.
+
+Stable versions may be released periodically and distributed through MATLAB File Exchange. Users are encouraged to follow releases for stable snapshots of the material.
 
 ---
 
