@@ -105,8 +105,6 @@ Fallah Fini, S., and Nakhjiri, N.
 MBSE Handbook Using MATLAB and System Composer,
 California State Polytechnic University, Pomona.
 
-(You may update this section with a DOI if you later register one.)
-
 ## Versioning and Distribution
 
 This GitHub repository is the primary and authoritative source for the handbook.
